@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/shop1.png" type="images/x-icon">
+    <script src="https://kit.fontawesome.com/37e4e5e8a1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>I-Tech shopping webs</title>
+</head>
+<body>
+  <section id="navbar">
+    <nav class="header navbar navbar-expand-lg navbar-light bg-light">
+        <div  class="text">
+          <h1>
+            <span class="text-i">I</span>
+            <span>-</span>
+            <span class="text-t">T</span>
+            <span class="text-e">e</span>ch
+          </h1>
+        </div>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <select class="form" aria-label="Default select example" id="select">
+                    <option selected>Brand</option>
+                    <option value="Apple">Apple</option>
+                    <option value="Cannon">Cannon</option>
+                    <option value="Redmi">Redmi</option>
+                    <option value="Samsung">Samsung</option>
+                    <option value="Sony">Sony Playstation</option>
+                    <option value="Logitech">Logitech</option>
+                    <option value="Laptop">Laptop</option>
+                </select>
+              </li>         
+              <li   class="nav-item dropdown">
+                <select class="form" aria-label="Default select example" id="selects">
+                    <option selected>Price</option>
+                    <option value="1499.99">1499.99$</option>
+                    <option value="1299.99">1299.99$</option>
+                    <option value="799.99">799.99$</option>
+                    <option value="739.99">739.99$</option>
+                    <option value="499.99">499.99$</option>
+                    <option value="399.99">399.99$</option>
+                    <option value="299.99">299.99$</option>
+                    <option value="255.99">255.99$</option>
+                    <option value="105.99">105.99$</option>
+                    <option value="49.99">49.99$</option>
+                </select>
+            </li>
+            </ul>
+            <form class="d-flex">
+              <input id="searchBar" class="search form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+<!-- <******************Carousel***********************> -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ps51.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label
+          
+        </h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/23065.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/Galaxy-S21-Ultra-cameras1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<div class="cards">
+    <div id="charactersList" class="row"></div>
+</div>
+
+
+
+<!-- <**************Page*****************> -->
+    <nav id="Apple" aria-label="Page navigation example">
+        <ul>
+          <li class="pagination"></li> 
+          <a href="#" class="previous round">&#8249;</a>
+          <a href="#" class="next round">&#8250;</a>    
+
+        </ul>
+      </nav>
+<!-- <*******************Img**********************> -->
+      <div class="imgs"></div>
+      <div class="content">
+        <div class="textBV">
+          <h1>
+            <span class="textBV-i">I</span>
+            <span>-</span>
+            <span class="textBV-t">T</span>
+            <span class="textBV-e">e</span>ch
+          </h1>
+          <div class="contentFa">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-skype"></a>
+          </div>
+        </div>
+        <div class="contentBV">
+          <a href="">About us</a>
+          <a href="">Contacts</a>
+          <a href="">Partners</a>
+          <a href="">Questions and answers</a>
+          <a href="">+998-99-109-95-53</a>
+          <a href="">farhodxolxojayev2199@gmail.com</a>
+        </div>
+        <div></div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

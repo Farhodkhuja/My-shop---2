@@ -1,0 +1,221 @@
+body{
+    background: linear-gradient(230.95deg, #ffffff -0.1%, #DEDEDF 100%);
+}
+
+
+.card{
+    color: rgb(43, 43, 99);
+    margin: 20px;
+    margin-left: 120px;
+    box-shadow: rgb(107, 107, 107) 0px 10px 15px;
+    border-radius: 10px;
+    width: 320px;
+    height: 510px;
+    background-color: white;
+    padding: 10px;
+}
+.cards{
+    width: auto;
+    height: 1600px;
+
+    margin-top: 20px;
+}
+.cards:hover .card{
+    filter: blur(1px);
+    transform: scale(0.9);
+    opacity: 50;
+}
+
+.cards .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.form{
+    background: #D6D6D6;
+    margin-left: 200px;
+    margin-top: 8px;
+    border: none;
+    
+}
+.search{
+    width: 350px;
+}
+.text{
+    margin-top: -18px;
+    margin-left: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.text h1 {
+    display: flex;
+}
+.text-i{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.text-t{
+    color: rgb(34, 34, 112);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.imgs{
+    background: url(img/images.jpg) no-repeat center center/cover fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    opacity: 0.8;
+} 
+.header{
+    height: 60px;
+    background: linear-gradient(230.95deg, #ffffff -0.37%, #c8c8c8 100%);
+    opacity: .8;
+}
+.header-items{
+    z-index: 2;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation-name: shower-header;
+    animation-duration: 1s;
+    box-shadow: rgb(107, 107, 107) 0px 2px 50px;
+    opacity: .8;
+}
+@keyframes shower-header{
+    0%{
+        opacity: 0;
+        top: -70px;
+    }
+    100%{
+        opacity: 1;
+        top: 1;
+    }
+}
+.carousel{
+    width: 95%;
+    margin-left: 50px;
+}
+#Apple{
+    margin-top: 100px;
+    margin-left: 786px;
+}
+.content{
+    width: 100%;
+    height: 300px;
+    background-color: #08192B;
+}
+.contentBV a{
+    top: 70px;
+    position: relative;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+.contentBV{
+    text-align: center;
+}
+.textBV{
+    left: 500px;
+    color: rgb(190, 187, 187);
+    margin-left: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.textBV h1 {
+    display: flex;
+}
+.textBV-i{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.textBV-t{
+    color: rgb(86, 86, 206);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.row{
+    margin-right: 0 !important;
+}
+
+/* Logo */
+.fa {
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .contentFa{
+      margin-top: 80px;
+      display: flex;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+  /*000000000000000000000000000000*/
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+      margin: 10px;
+    background-color: #0d6efd;
+    color: black;
+  }
+  
+  .next {
+    background-color: #0d6efd;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
